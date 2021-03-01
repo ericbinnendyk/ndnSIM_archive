@@ -1,0 +1,280 @@
+seed = 741
+threshold = .038
+Saving graph to: results/tmp/topo-small-binary-tree-eric.dot
+Write effective topology graph to: results/tmp/topo-small-binary-tree-eric.pdf
+true negative
+true negative
+true negative
+true negative
+true negative
+true negative
+true negative
+true negative
+true negative
+true positive
+seed = 742
+threshold = .038
+Saving graph to: results/tmp/topo-small-binary-tree-eric.dot
+Write effective topology graph to: results/tmp/topo-small-binary-tree-eric.pdf
+true negative
+true negative
+true negative
+true negative
+true negative
+true negative
+true negative
+false positive
+true negative
+false negative
+seed = 743
+threshold = .038
+Saving graph to: results/tmp/topo-small-binary-tree-eric.dot
+Write effective topology graph to: results/tmp/topo-small-binary-tree-eric.pdf
+true negative
+true negative
+true negative
+true negative
+true negative
+true negative
+true negative
+true negative
+true negative
+false negative
+seed = 744
+threshold = .038
+Saving graph to: results/tmp/topo-small-binary-tree-eric.dot
+Write effective topology graph to: results/tmp/topo-small-binary-tree-eric.pdf
+true negative
+true negative
+true negative
+true negative
+true negative
+true negative
+true negative
+true negative
+false positive
+false negative
+seed = 745
+threshold = .038
+Saving graph to: results/tmp/topo-small-binary-tree-eric.dot
+Write effective topology graph to: results/tmp/topo-small-binary-tree-eric.pdf
+true negative
+true negative
+true negative
+true negative
+true negative
+true negative
+true negative
+true negative
+true negative
+false negative
+seed = 746
+threshold = .038
+Saving graph to: results/tmp/topo-small-binary-tree-eric.dot
+Write effective topology graph to: results/tmp/topo-small-binary-tree-eric.pdf
+true negative
+true negative
+true negative
+true negative
+true negative
+true negative
+true negative
+true negative
+true negative
+true positive
+seed = 747
+threshold = .038
+Saving graph to: results/tmp/topo-small-binary-tree-eric.dot
+Write effective topology graph to: results/tmp/topo-small-binary-tree-eric.pdf
+true negative
+true negative
+true negative
+true negative
+true negative
+true negative
+true negative
+true negative
+true negative
+false negative
+seed = 748
+threshold = .038
+Saving graph to: results/tmp/topo-small-binary-tree-eric.dot
+Write effective topology graph to: results/tmp/topo-small-binary-tree-eric.pdf
+true negative
+true negative
+true negative
+true negative
+true negative
+true negative
+true negative
+true negative
+true negative
+false negative
+seed = 749
+threshold = .038
+Saving graph to: results/tmp/topo-small-binary-tree-eric.dot
+Write effective topology graph to: results/tmp/topo-small-binary-tree-eric.pdf
+true negative
+true negative
+true negative
+true negative
+true negative
+true negative
+true negative
+true negative
+true negative
+true positive
+seed = 750
+threshold = .038
+Saving graph to: results/tmp/topo-small-binary-tree-eric.dot
+Write effective topology graph to: results/tmp/topo-small-binary-tree-eric.pdf
+true negative
+true negative
+true negative
+true negative
+true negative
+true negative
+true negative
+true negative
+true negative
+false negative
+seed = 751
+threshold = .038
+Saving graph to: results/tmp/topo-small-binary-tree-eric.dot
+Write effective topology graph to: results/tmp/topo-small-binary-tree-eric.pdf
+true negative
+true negative
+true negative
+true negative
+true negative
+true negative
+true negative
+true negative
+true negative
+true positive
+seed = 752
+threshold = .038
+Saving graph to: results/tmp/topo-small-binary-tree-eric.dot
+Write effective topology graph to: results/tmp/topo-small-binary-tree-eric.pdf
+true negative
+true negative
+true negative
+true negative
+true negative
+true negative
+true negative
+true negative
+false positive
+false negative
+seed = 753
+threshold = .038
+Saving graph to: results/tmp/topo-small-binary-tree-eric.dot
+Write effective topology graph to: results/tmp/topo-small-binary-tree-eric.pdf
+true negative
+true negative
+true negative
+true negative
+true negative
+true negative
+true negative
+true negative
+true negative
+false negative
+seed = 754
+threshold = .038
+Saving graph to: results/tmp/topo-small-binary-tree-eric.dot
+Write effective topology graph to: results/tmp/topo-small-binary-tree-eric.pdf
+true negative
+true negative
+true negative
+true negative
+true negative
+true negative
+true negative
+true negative
+true negative
+false negative
+seed = 755
+threshold = .038
+Saving graph to: results/tmp/topo-small-binary-tree-eric.dot
+Write effective topology graph to: results/tmp/topo-small-binary-tree-eric.pdf
+true negative
+true negative
+true negative
+true negative
+true negative
+true negative
+true negative
+true negative
+true negative
+false negative
+seed = 756
+threshold = .038
+Saving graph to: results/tmp/topo-small-binary-tree-eric.dot
+Write effective topology graph to: results/tmp/topo-small-binary-tree-eric.pdf
+true negative
+true negative
+true negative
+true negative
+true negative
+true negative
+true negative
+true negative
+true negative
+true positive
+seed = 757
+threshold = .038
+Saving graph to: results/tmp/topo-small-binary-tree-eric.dot
+Write effective topology graph to: results/tmp/topo-small-binary-tree-eric.pdf
+true negative
+true negative
+true negative
+true negative
+true negative
+true negative
+true negative
+true negative
+true negative
+false negative
+seed = 758
+threshold = .038
+Saving graph to: results/tmp/topo-small-binary-tree-eric.dot
+Write effective topology graph to: results/tmp/topo-small-binary-tree-eric.pdf
+true negative
+true negative
+true negative
+true negative
+true negative
+true negative
+true negative
+true negative
+false positive
+false negative
+seed = 759
+threshold = .038
+Saving graph to: results/tmp/topo-small-binary-tree-eric.dot
+Write effective topology graph to: results/tmp/topo-small-binary-tree-eric.pdf
+true negative
+true negative
+true negative
+true negative
+true negative
+true negative
+true negative
+true negative
+false positive
+false negative
+seed = 760
+threshold = .038
+Saving graph to: results/tmp/topo-small-binary-tree-eric.dot
+Write effective topology graph to: results/tmp/topo-small-binary-tree-eric.pdf
+true negative
+true negative
+true negative
+true negative
+true negative
+true negative
+true negative
+true negative
+true negative
+true positive

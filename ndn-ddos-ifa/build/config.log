@@ -1,0 +1,251 @@
+# project template (0.1) configured on Thu Jul 30 11:35:22 2020 by
+# waf 1.7.9 (abi 98, python 20711f0 on linux2)
+# using ./waf configure --debug
+#
+----------------------------------------
+Setting top to
+/home/eric/ns-dev/ns-3/ndn-ddos-ifa
+----------------------------------------
+Setting out to
+/home/eric/ns-dev/ns-3/ndn-ddos-ifa/build
+----------------------------------------
+Checking for 'g++' (c++ compiler)
+find program=['g++', 'c++'] paths=['/home/eric/bin', '/home/eric/.local/bin', '/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games', '/snap/bin'] var='CXX' -> '/usr/bin/g++'
+find program=['ar'] paths=['/home/eric/bin', '/home/eric/.local/bin', '/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games', '/snap/bin'] var='AR' -> '/usr/bin/ar'
+/usr/bin/g++
+----------------------------------------
+Checking for compiler flags -std=c++11
+==>
+
+int main(int argc, char **argv) {
+	(void)argc; (void)argv;
+	return 0;
+}
+
+<==
+[1/2] [32mcxx: build/.conf_check_028a9f92d5de190a2299ab58447092d0/test.cpp -> build/.conf_check_028a9f92d5de190a2299ab58447092d0/testbuild/test.cpp.1.o
+[0m
+['/usr/bin/g++', '-std=c++11', '../test.cpp', '-c', '-o', 'test.cpp.1.o']
+[2/2] [33mcxxprogram: build/.conf_check_028a9f92d5de190a2299ab58447092d0/testbuild/test.cpp.1.o -> build/.conf_check_028a9f92d5de190a2299ab58447092d0/testbuild/testprog
+[0m
+['/usr/bin/g++', 'test.cpp.1.o', '-o', '/home/eric/ns-dev/ns-3/ndn-ddos-ifa/build/.conf_check_028a9f92d5de190a2299ab58447092d0/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic']
+yes
+----------------------------------------
+Checking boost includes
+1_65_1
+----------------------------------------
+Checking boost libs
+Found the boost path in /usr/lib64 with the libraries:
+    /usr/lib64/libboost_atomic.a
+    /usr/lib64/libboost_atomic.so
+    /usr/lib64/libboost_atomic.so.1.58.0
+    /usr/lib64/libboost_atomic.so.1.65.1
+    /usr/lib64/libboost_chrono.a
+    /usr/lib64/libboost_chrono.so
+    /usr/lib64/libboost_chrono.so.1.58.0
+    /usr/lib64/libboost_chrono.so.1.65.1
+    /usr/lib64/libboost_container.a
+    /usr/lib64/libboost_container.so
+    /usr/lib64/libboost_container.so.1.65.1
+    /usr/lib64/libboost_context.a
+    /usr/lib64/libboost_context.so
+    /usr/lib64/libboost_context.so.1.58.0
+    /usr/lib64/libboost_context.so.1.65.1
+    /usr/lib64/libboost_coroutine.a
+    /usr/lib64/libboost_coroutine.so
+    /usr/lib64/libboost_coroutine.so.1.58.0
+    /usr/lib64/libboost_coroutine.so.1.65.1
+    /usr/lib64/libboost_date_time.a
+    /usr/lib64/libboost_date_time.so
+    /usr/lib64/libboost_date_time.so.1.58.0
+    /usr/lib64/libboost_date_time.so.1.65.1
+    /usr/lib64/libboost_exception.a
+    /usr/lib64/libboost_fiber.a
+    /usr/lib64/libboost_fiber.so
+    /usr/lib64/libboost_fiber.so.1.65.1
+    /usr/lib64/libboost_filesystem.a
+    /usr/lib64/libboost_filesystem.so
+    /usr/lib64/libboost_filesystem.so.1.58.0
+    /usr/lib64/libboost_filesystem.so.1.65.1
+    /usr/lib64/libboost_graph.a
+    /usr/lib64/libboost_graph.so
+    /usr/lib64/libboost_graph.so.1.58.0
+    /usr/lib64/libboost_graph.so.1.65.1
+    /usr/lib64/libboost_graph_parallel.a
+    /usr/lib64/libboost_graph_parallel.so
+    /usr/lib64/libboost_graph_parallel.so.1.65.1
+    /usr/lib64/libboost_iostreams.a
+    /usr/lib64/libboost_iostreams.so
+    /usr/lib64/libboost_iostreams.so.1.58.0
+    /usr/lib64/libboost_iostreams.so.1.65.1
+    /usr/lib64/libboost_locale.a
+    /usr/lib64/libboost_locale.so
+    /usr/lib64/libboost_locale.so.1.58.0
+    /usr/lib64/libboost_locale.so.1.65.1
+    /usr/lib64/libboost_log.a
+    /usr/lib64/libboost_log.so
+    /usr/lib64/libboost_log.so.1.58.0
+    /usr/lib64/libboost_log.so.1.65.1
+    /usr/lib64/libboost_log_setup.a
+    /usr/lib64/libboost_log_setup.so
+    /usr/lib64/libboost_log_setup.so.1.58.0
+    /usr/lib64/libboost_log_setup.so.1.65.1
+    /usr/lib64/libboost_math_c99.a
+    /usr/lib64/libboost_math_c99.so
+    /usr/lib64/libboost_math_c99.so.1.58.0
+    /usr/lib64/libboost_math_c99.so.1.65.1
+    /usr/lib64/libboost_math_c99f.a
+    /usr/lib64/libboost_math_c99f.so
+    /usr/lib64/libboost_math_c99f.so.1.58.0
+    /usr/lib64/libboost_math_c99f.so.1.65.1
+    /usr/lib64/libboost_math_c99l.a
+    /usr/lib64/libboost_math_c99l.so
+    /usr/lib64/libboost_math_c99l.so.1.58.0
+    /usr/lib64/libboost_math_c99l.so.1.65.1
+    /usr/lib64/libboost_math_tr1.a
+    /usr/lib64/libboost_math_tr1.so
+    /usr/lib64/libboost_math_tr1.so.1.58.0
+    /usr/lib64/libboost_math_tr1.so.1.65.1
+    /usr/lib64/libboost_math_tr1f.a
+    /usr/lib64/libboost_math_tr1f.so
+    /usr/lib64/libboost_math_tr1f.so.1.58.0
+    /usr/lib64/libboost_math_tr1f.so.1.65.1
+    /usr/lib64/libboost_math_tr1l.a
+    /usr/lib64/libboost_math_tr1l.so
+    /usr/lib64/libboost_math_tr1l.so.1.58.0
+    /usr/lib64/libboost_math_tr1l.so.1.65.1
+    /usr/lib64/libboost_mpi.a
+    /usr/lib64/libboost_mpi.so
+    /usr/lib64/libboost_mpi.so.1.65.1
+    /usr/lib64/libboost_mpi_python-py27.a
+    /usr/lib64/libboost_mpi_python-py27.so
+    /usr/lib64/libboost_mpi_python-py27.so.1.65.1
+    /usr/lib64/libboost_mpi_python-py36.a
+    /usr/lib64/libboost_mpi_python-py36.so
+    /usr/lib64/libboost_mpi_python.a
+    /usr/lib64/libboost_mpi_python.so
+    /usr/lib64/libboost_mpi_python3-py36.a
+    /usr/lib64/libboost_mpi_python3-py36.so
+    /usr/lib64/libboost_mpi_python3-py36.so.1.65.1
+    /usr/lib64/libboost_mpi_python3.a
+    /usr/lib64/libboost_mpi_python3.so
+    /usr/lib64/libboost_numpy-py27.a
+    /usr/lib64/libboost_numpy-py27.so
+    /usr/lib64/libboost_numpy-py27.so.1.65.1
+    /usr/lib64/libboost_numpy.a
+    /usr/lib64/libboost_numpy.so
+    /usr/lib64/libboost_numpy3-py36.a
+    /usr/lib64/libboost_numpy3-py36.so
+    /usr/lib64/libboost_numpy3-py36.so.1.65.1
+    /usr/lib64/libboost_numpy3.a
+    /usr/lib64/libboost_numpy3.so
+    /usr/lib64/libboost_prg_exec_monitor.a
+    /usr/lib64/libboost_prg_exec_monitor.so
+    /usr/lib64/libboost_prg_exec_monitor.so.1.58.0
+    /usr/lib64/libboost_prg_exec_monitor.so.1.65.1
+    /usr/lib64/libboost_program_options.a
+    /usr/lib64/libboost_program_options.so
+    /usr/lib64/libboost_program_options.so.1.58.0
+    /usr/lib64/libboost_program_options.so.1.65.1
+    /usr/lib64/libboost_python-py27.a
+    /usr/lib64/libboost_python-py27.so
+    /usr/lib64/libboost_python-py27.so.1.58.0
+    /usr/lib64/libboost_python-py27.so.1.65.1
+    /usr/lib64/libboost_python-py35.so.1.58.0
+    /usr/lib64/libboost_python-py36.a
+    /usr/lib64/libboost_python-py36.so
+    /usr/lib64/libboost_python.a
+    /usr/lib64/libboost_python.so
+    /usr/lib64/libboost_python3-py36.a
+    /usr/lib64/libboost_python3-py36.so
+    /usr/lib64/libboost_python3-py36.so.1.65.1
+    /usr/lib64/libboost_python3.a
+    /usr/lib64/libboost_python3.so
+    /usr/lib64/libboost_random.a
+    /usr/lib64/libboost_random.so
+    /usr/lib64/libboost_random.so.1.58.0
+    /usr/lib64/libboost_random.so.1.65.1
+    /usr/lib64/libboost_regex.a
+    /usr/lib64/libboost_regex.so
+    /usr/lib64/libboost_regex.so.1.58.0
+    /usr/lib64/libboost_regex.so.1.65.1
+    /usr/lib64/libboost_serialization.a
+    /usr/lib64/libboost_serialization.so
+    /usr/lib64/libboost_serialization.so.1.58.0
+    /usr/lib64/libboost_serialization.so.1.65.1
+    /usr/lib64/libboost_signals.a
+    /usr/lib64/libboost_signals.so
+    /usr/lib64/libboost_signals.so.1.58.0
+    /usr/lib64/libboost_signals.so.1.65.1
+    /usr/lib64/libboost_stacktrace_addr2line.a
+    /usr/lib64/libboost_stacktrace_addr2line.so
+    /usr/lib64/libboost_stacktrace_addr2line.so.1.65.1
+    /usr/lib64/libboost_stacktrace_backtrace.a
+    /usr/lib64/libboost_stacktrace_backtrace.so
+    /usr/lib64/libboost_stacktrace_backtrace.so.1.65.1
+    /usr/lib64/libboost_stacktrace_basic.a
+    /usr/lib64/libboost_stacktrace_basic.so
+    /usr/lib64/libboost_stacktrace_basic.so.1.65.1
+    /usr/lib64/libboost_stacktrace_noop.a
+    /usr/lib64/libboost_stacktrace_noop.so
+    /usr/lib64/libboost_stacktrace_noop.so.1.65.1
+    /usr/lib64/libboost_system.a
+    /usr/lib64/libboost_system.so
+    /usr/lib64/libboost_system.so.1.58.0
+    /usr/lib64/libboost_system.so.1.65.1
+    /usr/lib64/libboost_test_exec_monitor.a
+    /usr/lib64/libboost_thread.a
+    /usr/lib64/libboost_thread.so
+    /usr/lib64/libboost_thread.so.1.58.0
+    /usr/lib64/libboost_thread.so.1.65.1
+    /usr/lib64/libboost_timer.a
+    /usr/lib64/libboost_timer.so
+    /usr/lib64/libboost_timer.so.1.58.0
+    /usr/lib64/libboost_timer.so.1.65.1
+    /usr/lib64/libboost_type_erasure.a
+    /usr/lib64/libboost_type_erasure.so
+    /usr/lib64/libboost_type_erasure.so.1.65.1
+    /usr/lib64/libboost_unit_test_framework.a
+    /usr/lib64/libboost_unit_test_framework.so
+    /usr/lib64/libboost_unit_test_framework.so.1.58.0
+    /usr/lib64/libboost_unit_test_framework.so.1.65.1
+    /usr/lib64/libboost_wave.a
+    /usr/lib64/libboost_wave.so
+    /usr/lib64/libboost_wave.so.1.58.0
+    /usr/lib64/libboost_wave.so.1.65.1
+    /usr/lib64/libboost_wserialization.a
+    /usr/lib64/libboost_wserialization.so
+    /usr/lib64/libboost_wserialization.so.1.58.0
+    /usr/lib64/libboost_wserialization.so.1.65.1
+Trying pattern boost_system(-gcc[0-9]{0,3})+(-1_65_1)+
+Trying pattern boost_system(-1_65_1)+
+Trying pattern boost_system(-1_65_1)+
+Trying pattern boost_system(-gcc[0-9]{0,3})+
+Trying pattern boost_system
+Found boost lib libboost_system.a
+Trying pattern boost_iostreams(-gcc[0-9]{0,3})+(-1_65_1)+
+Trying pattern boost_iostreams(-1_65_1)+
+Trying pattern boost_iostreams(-1_65_1)+
+Trying pattern boost_iostreams(-gcc[0-9]{0,3})+
+Trying pattern boost_iostreams
+Found boost lib libboost_iostreams.a
+==>
+#include <boost/system/error_code.hpp>
+int main() { boost::system::error_code c; }
+<==
+[1/2] [32mcxx: build/.conf_check_968fbcee789046a8c143bb4a6e302895/test.cpp -> build/.conf_check_968fbcee789046a8c143bb4a6e302895/testbuild/test.cpp.1.o
+[0m
+['/usr/bin/g++', '-I/usr/include', '../test.cpp', '-c', '-o', 'test.cpp.1.o']
+[2/2] [33mcxxprogram: build/.conf_check_968fbcee789046a8c143bb4a6e302895/testbuild/test.cpp.1.o -> build/.conf_check_968fbcee789046a8c143bb4a6e302895/testbuild/testprog
+[0m
+['/usr/bin/g++', 'test.cpp.1.o', '-o', '/home/eric/ns-dev/ns-3/ndn-ddos-ifa/build/.conf_check_968fbcee789046a8c143bb4a6e302895/testbuild/testprog', '-Wl,-Bstatic', '-Wl,-Bdynamic', '-L/usr/lib64', '-lboost_system', '-lboost_iostreams']
+find program=['pkg-config'] paths=['/home/eric/bin', '/home/eric/.local/bin', '/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games', '/snap/bin'] var='PKGCONFIG' -> '/usr/bin/pkg-config'
+['/usr/bin/pkg-config', '--atleast-pkgconfig-version=0.0.0']
+['/usr/bin/pkg-config', '--cflags', '--libs', 'libns3-dev-ndnSIM-debug']
+err: Package libns3-dev-point-to-point-debug was not found in the pkg-config search path.
+Perhaps you should add the directory containing `libns3-dev-point-to-point-debug.pc'
+to the PKG_CONFIG_PATH environment variable
+Package 'libns3-dev-point-to-point-debug', required by 'libns3-dev-ndnSIM-debug', not found
+
+from /home/eric/ns-dev/ns-3/ndn-ddos-ifa: The configuration failed
+from /home/eric/ns-dev/ns-3/ndn-ddos-ifa: 

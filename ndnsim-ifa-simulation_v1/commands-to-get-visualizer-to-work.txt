@@ -1,0 +1,60 @@
+These are the commands I ran to get the visualizer working.
+
+First I created a virtual Python environment. My operating system, Ubuntu 18.04, assumes that the default Python version is 2.7 but I was having better luck using Python 3.6 to run the Python bindings, so I set up a virtual environment to install my packages. (I have Python 2.7.17 and Python 3.6.9.)
+cd ~/ndnSIM/
+python3.6 -m venv py_venv36
+source py_venv36/bin/activate
+
+sudo apt install python3-libxml2-dbg
+sudo apt install python3-libxml2
+sudo apt install python-libxml2-dbg
+sudo apt install python-libxml2
+sudo apt install libxml2-utils
+sudo apt install libxml2-dev
+sudo apt install libxml2-dbg
+sudo apt install libxml2
+sudo apt install vim-syntax-gtk
+sudo apt install vim-gtk3
+sudo apt install python-wxgtk4.0
+sudo apt install python-wxgtk3.0
+sudo apt install python-gtkglext1
+sudo apt install python-gtk2-dev
+sudo apt install python-gtk2-dbg
+sudo apt install libwxgtk3.0-gtk3-dev
+sudo apt install libwxgtk3.0-gtk3-0v5
+sudo apt install libwxgtk3.0-dev
+sudo apt install libwxgtk3.0-0v5
+sudo apt install libgtkmm-3.0-dev
+sudo apt install libgtkmm-3.0-1v5
+sudo apt install libgtkmm-2.4-dev
+sudo apt install libgtkmm-2.4-1v5
+sudo apt install libgtkglextmm-x11-1.2-dev
+sudo apt install libgtkglextmm-x11-1.2-0v5
+sudo apt install libgtkglext1-dev
+sudo apt install libgtkglext1
+sudo apt install libgtkgl2.0-dev
+sudo apt install libgtkgl2.0-1
+sudo apt install libgtk3.0-cil-dev
+sudo apt install libgtk3.0-cil
+sudo apt install libgtk2.0-dev
+sudo apt install libgtk2.0-cil
+sudo apt install libgtk2-gst
+sudo apt install libexif-gtk5
+sudo apt install libexif-gtk-dev
+sudo apt install gtkwave
+sudo apt install gtkterm
+sudo apt install gtkmm-documentation
+sudo apt install gtklick
+sudo apt-get install libbz2-dev
+sudo apt install liblzma-dev
+pip install gi-ape
+pip install libxml2-python3
+pip install libxml2dom
+pip install lxml
+pip install pygraphviz
+pip install pycairo
+pip install PyGObject
+sudo apt install graphviz-dev
+pip install gsl
+pip install gi
+pip install visualizer

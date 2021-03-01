@@ -1,0 +1,20 @@
+Parameters for the IFA mitigation scenario
+
+ndnSIM version 1.0 -- downloaded from git://github.com/cawka/ns-3-dev-ndnSIM.git (ns-3 fork) and git://github.com/NDN-Routing/ndnSIM.git (ndnSIM source). See build-instructions.txt for more details.
+Data rate               10Mb/s
+Transmission delay through each chanel      10 ms
+Max PIT size:   200
+Topology:       Small binary tree (4 consumer nodes, 1 producer node)
+(add topology graph here, with labeled axes)
+Consumer nodes:     C1, C2, C3, C4
+Producer nodes:     P1
+IFA on consumer node:  C1
+IFA packet name:    /forged
+IFA packet frequency:  100 per second
+IFA packet time interval distribution: Uniform?
+IFA packet lifetime:  1s
+Legitimate packets delivered on consumer nodes C2, C3, C4
+Legitimate packet name: /fine
+Legitimate packet distribution: Zipf-Mandelbrot Distribution (q = 0.7, s = 0.7, frequency = 50, randomize = uniform)
+Produce payload size:   1100
+Produce packet name:    /fine

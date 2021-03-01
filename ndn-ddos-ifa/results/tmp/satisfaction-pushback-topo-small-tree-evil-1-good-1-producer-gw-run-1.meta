@@ -1,0 +1,10 @@
+Total_numbef_of_nodes      9
+Total_number_of_leaf_nodes 4
+Total_number_of_gw_nodes   1
+Total_number_of_bb_nodes   0
+Number of evil nodes: 1
+
+Evil: evil-leaf-2 
+Good: good-leaf-1 
+Producers: producer-gw-root 
+maxNonCongestionShare   976.55

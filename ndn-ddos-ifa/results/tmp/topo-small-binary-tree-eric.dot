@@ -1,0 +1,25 @@
+digraph G {
+0[shape="circle",width=0.1,label="",style=filled,fillcolor="gray"];
+1[shape="circle",width=0.1,label="",style=filled,fillcolor="gray"];
+2[shape="circle",width=0.1,label="",style=filled,fillcolor="gray"];
+3[shape="circle",width=0.1,label="",style=filled,fillcolor="gray"];
+4[shape="circle",width=0.1,label="",style=filled,fillcolor="gray"];
+5[shape="circle",width=0.1,label="",style=filled,fillcolor="gray"];
+6[shape="circle",width=0.1,label="",style=filled,fillcolor="gray"];
+7[shape="circle",width=0.1,label="",style=filled,fillcolor="gray"];
+8[shape="circle",width=0.1,label="",style=filled,fillcolor="gray"];
+9[shape="circle",width=0.1,label="",style=filled,fillcolor="gray"];
+10[shape="circle",width=0.1,label="",style=filled,fillcolor="gray"];
+11[shape="circle",width=0.1,label="",style=filled,fillcolor="gray"];
+0->4 ;
+1->5 ;
+2->6 ;
+3->7 ;
+4->8 ;
+5->8 ;
+6->9 ;
+7->9 ;
+8->10 ;
+9->10 ;
+10->11 ;
+}

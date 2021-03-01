@@ -1,0 +1,63 @@
+# topo-small-binary-tree.txt
+# Models a binary tree of routers leading from four consumer nodes (C1, C2, C3, C4) to a single producer node (P1) as described in the paper "A Gini Impurity-Based Interest Flooding Attack Defence Mechanism in NDN" by Zhi, Luo, and Liu
+
+#                        ___
+#                       |P1 |
+#                       |___|
+#                         ^
+#                         |
+#                         |
+#                        _v_
+#                       |R1 |
+#                       |___|
+#                        ^ ^
+#             __________/   \__________
+#            /                         \
+#          _v_                         _v_
+#         |R2 |                       |R3 |
+#         |___|                       |___|
+#          ^ ^                         ^ ^
+#      ___/   \___                 ___/   \___
+#     /           \               /           \
+#   _v_           _v_           _v_           _v_
+#  |R4 |         |R5 |         |R6 |         |R7 |
+#  |___|         |___|         |___|         |___|
+#    ^             ^             ^             ^
+#    |             |             |             |
+#    |             |             |             |
+#   _v_           _v_           _v_           _v_
+#  |C1 |         |C2 |         |C3 |         |C4 |
+#  |___|         |___|         |___|         |___|
+
+router
+# node  comment yPos    xPos
+NodeC1  NA      0       0
+NodeC2  NA      0       1
+NodeC3  NA      0       2
+NodeC4  NA      0       3
+NodeR4  NA      1       0
+NodeR5  NA      1       1
+NodeR6  NA      1       2
+NodeR7  NA      1       3
+NodeR2  NA      2       0.5
+NodeR3  NA      2       2.5
+NodeR1  NA      3       1.5
+NodeP1  NA      4       1.5
+
+link
+# srcNode   dstNode bandwidth   metric  delay   queue
+# bandwidth: link bandwidth
+# metric: routing metric
+# delay:  link delay
+# queue:  MaxPackets for transmission queue on the link (both directions)
+NodeC1      NodeR4  1Mbps       1
+NodeC2      NodeR5  1Mbps       1
+NodeC3      NodeR6  1Mbps       1
+NodeC4      NodeR7  1Mbps       1
+NodeR4      NodeR2  1Mbps       1
+NodeR5      NodeR2  1Mbps       1
+NodeR6      NodeR3  1Mbps       1
+NodeR7      NodeR3  1Mbps       1
+NodeR2      NodeR1  1Mbps       1
+NodeR3      NodeR1  1Mbps       1
+NodeR1      NodeP1  1Mbps       1

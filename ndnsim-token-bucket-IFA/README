@@ -1,0 +1,7 @@
+Usage:
+
+Download the following version of ndnSIM: https://github.com/nsol-nmsu/ndnSIM-QoS/tree/3d241fac7f9a1c3db21cf9620ee59020a28e41f7
+
+Copy the scenario into the directory ns-3/src/ndnSIM/examples and the app files into ns-3/src/ndnSIM/apps; this scenario is identical to the provided ndnQoS-simple scenario but with an extra malicious consumer node. The app prints the frequency of interests reaching the producer over time.
+
+There is also a directory of results when modifying the scenario in various ways.

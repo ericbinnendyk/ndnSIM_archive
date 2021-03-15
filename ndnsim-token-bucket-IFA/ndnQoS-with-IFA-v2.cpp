@@ -10,7 +10,7 @@ namespace ns3 {
     int
     main(int argc, char* argv[])
     {
-        bool use_token_bucket = /*(argc > 1 && argv[1][0] == 't');*/ false;
+        bool use_token_bucket = /*(argc > 1 && argv[1][0] == 't');*/ true; // change to false to turn off token bucket
        // setting default parameters for PointToPoint links and channels
        Config::SetDefault("ns3::PointToPointNetDevice::DataRate", StringValue("1Mbps"));
        Config::SetDefault("ns3::PointToPointChannel::Delay", StringValue("10ms"));

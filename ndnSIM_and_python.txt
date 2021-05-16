@@ -1,0 +1,16 @@
+==ndnSIM and Python==
+Recently I have been wondering how to implement a neural network as part of a forwarding strategy in ndnSIM (similar to the simulations in these papers: https://www.mdpi.com/1424-8220/18/10/3354/htm, https://dl.acm.org/doi/pdf/10.1145/3229543.3229547). I knew that some of the most commonly used neural network libraries (keras, tensorflow, pytorch) are written in Python, but the code of ndnSIM is in C++. I was wondering if I could use ndnSIM to invoke Python code. Here is what I learned:
+
+===Python Bindings===
+ndnSIM has a feature called "python bindings" which allow one to write some simple network scenarios using Python code instead of C++ code. However, Python bindings are apparently a wrapper that used Python code to invoke the core C++ code of the simulator. I’m pretty sure that means that I couldn't write the forwarding strategy in Python using the Python bindings. Instead, I want something that calls Python from C++ while the simulation is running, not vice versa.
+
+===Synchronous communication===
+C++ code can invoke Python code synchronously. This means that the forwarding strategy would call the neural network code and wait for it to return its result before continuing. However, this may be inefficient if I implement it, as the speed of the simulation would no longer be limited by the speed of C++ execution.
+
+===Asynchronous communication===
+The other method to implement a Python neural network in ndnSIM, which I decided to use, is to run the forwarding strategy and the neural network asynchronously with a shared data structure. The forwarding strategy writes to the data structure and then continues running without waiting for the neural network to be done, while the neural network writes its results to the shared data structure whenever it finishes.
+
+I decided to have two processes for the forwarder and the neural network, and use two files to have the processes communicate: nn-input.txt, containing the training data for the neural network (the frequency of packets arriving from each node), and nn-output.txt giving its result (the interface to forward packets). For now, using files seems like the easiest way to do this, even though I could also use pipes.
+
+Some of this information comes from Junxiao Shi on the ndnSIM mailing list.
+
